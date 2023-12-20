@@ -2,7 +2,7 @@ const express = require('express')
 const categoryRouter = require('./routes/category.routes')
 const productRouter = require('./routes/product.routes')
 const cors = require('cors');
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3002
 
 const app = express()
 app.use(cors());
